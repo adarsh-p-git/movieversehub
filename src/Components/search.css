@@ -1,0 +1,175 @@
+/* search.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    position: relative;
+    height: 100%;
+}
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://wallpapercave.com/wp/wp2714579.png') center/cover no-repeat;
+    filter: blur(2px); /* Adjust the blur amount as needed */
+    z-index: -1;
+    
+}
+
+button
+{
+  margin-left: 5px;
+}
+body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(23, 17, 17, 0.568); /* Adjust the alpha value for darkness */
+    z-index: -1;
+}
+  
+  .container1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #05031382;
+  }
+  
+  #searchfield {
+    padding: 15px;
+    font-size: 18px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #ff5e3a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ff7e5f;
+  }
+  
+  .suggestions {
+    margin-top: 20px;
+  }
+  
+  .suggestionlist {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sugg-item {
+    cursor: pointer;
+    background-color: #4a4a4a;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .sugg-item:hover {
+    background-color: #646464;
+  }
+  
+  .moviedisplay {
+    margin-top: 30px;
+    min-height:300px; /* Adjust the value based on your design */
+  }
+  
+  .display1 {
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .display1 img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin: 10px 0;
+    color: rgb(223, 221, 230);
+    text-shadow: 2px 2px 2px rgb(36, 36, 89);
+    font-family: 'Black Ops One', system-ui;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+   
+  }
+
+  .moviedetails{
+    padding: 50px;
+  }
+  
+  
+
+  h6{
+    color: rgb(29, 29, 107);
+    font-weight: bolder;
+  }
+
+  .maindisplay
+  {
+    border-radius: 10px; 
+    z-index: 1;
+    background-color: #0c0a1842;
+  }
+
+  p{
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  .titledis
+  {
+    align-items: "left";
+  }
+
+  .container1{
+    margin: 100px;
+    border-radius:10px;
+  }
+
+
+  #release{
+    font-weight: bolder;
+    color: rgb(29, 29, 107);
+  }
+
+  #ratingkey
+  {
+    color: rgb(20, 20, 57);
+  }
+ 
+
+  
